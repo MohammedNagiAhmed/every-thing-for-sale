@@ -1,0 +1,25 @@
+.Welcome-section {
+  background-image: linear-gradient(
+    to right,
+    #816e66 0%,
+    #b4a59f 50%,
+    #b4a59f 50%,
+    #816e66 100%
+  );
+
+  height: 480px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.welcome-title {
+  /* flex-grow: 1; */
+}
+.welcome-image {
+  /* flex-grow: 1; */
+}
+/* .welcome-image img {
+    width: 100%;
+} */
