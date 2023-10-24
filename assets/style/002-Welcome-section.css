@@ -15,11 +15,25 @@
   align-items: center;
 }
 .welcome-title {
-  /* flex-grow: 1; */
+  width: 50%;
 }
 .welcome-image {
-  /* flex-grow: 1; */
+  height: 70%;
+  width: 42%;
 }
-/* .welcome-image img {
-    width: 100%;
-} */
+.wellcome-btn{
+  margin-top: 30px;
+  background-color: var(--brown07);
+  color: var(--lightbrown);
+  height: 40px;
+  border-radius: 18px;
+  padding: 5px 8px;
+
+}
+.wellcome-btn:hover{
+  background-color: var(--brown04);
+cursor: pointer;
+}
+.welcome-title{
+  font-size: 40px;
+}

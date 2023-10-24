@@ -1,0 +1,28 @@
+footer {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondarycolor);
+  padding: 16px 0;
+  margin: 24px 0;
+}
+
+footer ul {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border-bottom: 0.5px solid var(--brown02);
+
+  padding-bottom: 16px;
+  color: var(--secondarycolor);
+}
+
+footer a {
+  padding: 8px;
+  color: var(--secondarycolor);
+}
